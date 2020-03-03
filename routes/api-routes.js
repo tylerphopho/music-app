@@ -1,16 +1,15 @@
 
 // Dependencies
 // =============================================================
-var db = require("../public/index");
-var Artist = require("../models/artist.js");
+var db = require("../models");
 
 
 // Routes
 // =============================================================
 module.exports = function(app) {
     // Search Artists
-  app.get("/api/:artist", function(req, res){
-    db.Artist.findAll({}).then(function(results){
+  app.get("/api/:music", function(req, res){
+    db.Music.findAll({}).then(function(results){
       res.json(results);
    });
   });
