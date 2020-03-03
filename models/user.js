@@ -1,16 +1,23 @@
+// Model for the User
 module.exports = function(sequelize, DataTypes) {
     var User = sequelize.define("User", {
         username: {
-            types: DataTypes.TEXT,
+            type: DataTypes.STRING,
             allowNull: null,
             unique: true,
         },
         
         password: {
-            type: DataTypes.STRING(64),
-            is: /^[0-9a-f]{64}$/i
+            type: DataTypes.STRING,
+            allowNull: false,
         }
     
     });
-    return User
-}
+    User.prototype.validPassword= function(password) {
+        return bcrypt.compareSync(password, this.password);
+    }
+    User.addHook("beforeCreate", function(user) {
+        user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
+      });
+    return User;
+};
