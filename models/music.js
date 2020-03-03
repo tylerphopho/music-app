@@ -1,10 +1,10 @@
 // Model for Music
 module.exports = function(sequelize, DataTypes) {
     var Music = sequelize.define("Music", {
+        title: DataTypes.STRING,
         artist: DataTypes.STRING,
-        song: DataTypes.STRING,
         genre: DataTypes.STRING,
-        albums: DataTypes.INTEGER,  
+        year: DataTypes.INTEGER,
     });
     return Music
 }
