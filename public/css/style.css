@@ -1,0 +1,12 @@
+body {
+    background-image: url('./music-project-2-images/apple-music-note-.jpg');
+}
+
+h4 {
+display: flex;
+justify-content:center;
+align-items:center;
+font-family:  Georgia, Times,  serif;
+color: aliceblue;
+font-size: 90pt;
+} 
