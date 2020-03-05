@@ -1,5 +1,10 @@
-body {
+.parallax {
     background-image: url('./music-project-2-images/apple-music-note-.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h4 {
@@ -10,3 +15,7 @@ font-family:  Georgia, Times,  serif;
 color: aliceblue;
 font-size: 90pt;
 } 
+
+#search {
+    margin-left: 650px;
+}
