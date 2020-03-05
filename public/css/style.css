@@ -31,3 +31,8 @@ header {
     max-width: 500px;
     margin: 20px auto;
   }
+
+  .sticky-nav{
+      position: fixed;
+      top: 0;
+  }
