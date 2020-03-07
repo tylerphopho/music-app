@@ -13,11 +13,14 @@ app.use(express.json());
 // =============================================================
 require("./routes/api-routes")(app);
 
+
 db.sequelize.sync({force: true}).then(function(){
     app.listen(PORT, function(){
         console.log("Listening on port %s", PORT);
     });
 });
+
+
 
 
 
