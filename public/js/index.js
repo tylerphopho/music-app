@@ -1,7 +1,9 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(window).scrollTop() > 150) {
-            $(".nav").addClass("stick-nav");
+        if($(window).scrollTop() > 100) {
+            $("nav").addClass("sticky-nav");
+        } else {
+            $("nav").removeClass("sticky-nav");
         }
     });
 
