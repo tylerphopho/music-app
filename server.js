@@ -12,6 +12,7 @@ app.use(express.json());
 // Routes
 // =============================================================
 require("./routes/api-routes")(app);
+require("./routes/html-routes")(app);
 
 
 db.sequelize.sync({force: true}).then(function(){
