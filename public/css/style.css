@@ -20,29 +20,41 @@ header {
     color: white;
     text-align: center;
   }
-  h1 {
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 3rem;
-    white-space: nowrap;
-  }
-  h2 {
-    color: white;
-    font-size: 2rem;
-  }
-  p {
-    color: white;
-  }  
-  main {
-    max-width: 500px;
-    margin: 20px auto;
-  }
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
+}
+h4 {
+  color: white;
+}
+p {
+  color: white;
+}  
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
 
-  .sticky-nav{
-      position: fixed;
-      top: 0;
-  }
-  main {
-    max-width: 500px;
-    margin: 20px auto;
-  }
+.sticky-nav{
+    position: fixed;
+    top: 0;
+}
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.modal-content {
+  background-color: #212121;
+} 
+
+.sticky-nav {
+  position: fixed;
+  
+}
