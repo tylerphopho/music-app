@@ -1,1 +1,4 @@
-$(".nav").addClass("sticky-nav");
+$(document).ready(function(){
+    $("#about-modal").modal();
+    $(".nav").addClass("stick-nav");
+})

@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
 }
 
 header {
@@ -26,7 +27,11 @@ header {
     white-space: nowrap;
   }
   h2 {
+    color: white;
     font-size: 2rem;
+  }
+  p {
+    color: white;
   }  
   main {
     max-width: 500px;
@@ -36,4 +41,8 @@ header {
   .sticky-nav{
       position: fixed;
       top: 0;
+  }
+  main {
+    max-width: 500px;
+    margin: 20px auto;
   }
