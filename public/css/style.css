@@ -1,21 +1,39 @@
-.parallax {
-    background-image: url('./music-project-2-images/apple-music-note-.jpg');
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-h4 {
-display: flex;
-justify-content:center;
-align-items:center;
-font-family:  Georgia, Times,  serif;
-color: aliceblue;
-font-size: 90pt;
-} 
-
-#search {
-    margin-left: 650px;
+header {
+    background: url(./images/background-img.jpg);
+        background-size: cover;
+        height: 100vh;
 }
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  h2 {
+    font-size: 2rem;
+  }  
+  main {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  .sticky-nav{
+      position: fixed;
+      top: 0;
+  }

@@ -1,0 +1,1 @@
+$(".nav").addClass("sticky-nav");
