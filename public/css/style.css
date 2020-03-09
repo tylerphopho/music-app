@@ -12,28 +12,38 @@ header {
 }
 
 .title {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-  }
-  h1 {
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 3rem;
-    white-space: nowrap;
-  }
-  h2 {
-    font-size: 2rem;
-  }  
-  main {
-    max-width: 500px;
-    margin: 20px auto;
-  }
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 2rem;
+}  
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
 
-  .sticky-nav{
-      position: fixed;
-      top: 0;
-  }
+.sticky-nav{
+    position: fixed;
+    top: 0;
+}
+
+.card1 {
+  margin-top: 30px;
+}
+
+h5{
+    text-align: center;
+}
+
+  
