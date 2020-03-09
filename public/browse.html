@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Music App</title>
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="nav-wrapper transparent">
+    <div class="container">
+        <ul class="left hide-on-med-and-down">
+            <li><a href="#about-modal" class="modal-trigger">About</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="browse.html">Browse</a></li>
+        </ul>
+    <a href="index.html" class="brand-logo center">Top Tracks</a>
+    <ul class="right hide-on-med-and-down">
+        <li>
+            <div class="center row">
+                <div class="col m12">
+                    <div class="row">
+                        <form>
+                            <div class="input-field col s6">
+                                <i class="white-text material-icons prefix">search</i>
+                                <input id="music-search" type="text" class="white-text" placeholder="">
+                            </div>
+                            <div class="col s6">
+                                <button id="navbar-search" class="btn-small white black-text">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+<!-- About Modal -->
+<div id="about-modal" class="modal">
+    <div class="modal-content">
+        <h4>About</h4>
+        <p>We wanted to make a music app that allows users to stream songs without ads and be able to add songs
+            to their profiles and save songs they like. With the work of Tyler Pho and Kevin Peguero we created 
+            something relative similiar to that.
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href=""><div class="modal-close btn-flat">Close</div></a>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://sdk.scdn.co/spotify-player.js"></script>
+<script src="./js/spotify.js"></script>
+<script src="./js/index.js"></script>
+</html>
