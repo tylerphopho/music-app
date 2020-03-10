@@ -54,7 +54,20 @@ main {
   background-color: #212121;
 } 
 
-.sticky-nav {
-  position: fixed;
-  top: 0;
-}
+  .sticky-nav{
+      position: fixed;
+      top: 0;
+  }
+
+
+  /* pricing page */
+
+  .card1 {
+    margin-top: 30px;
+  }
+
+  h5{
+      text-align: center;
+  }
+
+  
