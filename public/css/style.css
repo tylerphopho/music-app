@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
@@ -9,6 +8,10 @@ header {
     background: url(./images/background-img.jpg);
         background-size: cover;
         height: 100vh;
+}
+
+span {
+  color: white;
 }
 
 .title {

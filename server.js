@@ -6,8 +6,10 @@ var mysql = require("mysql");
 var PORT = process.env.PORT || 3000;
 var app = express();
 
+
+var db = require("./models");
 // Static directory to be served
-app.use(express.static("app/public"));
+app.use(express.static(__dirname + '/public'));
 app.use(express.json());
 // Routes
 // =============================================================
