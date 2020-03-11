@@ -8,4 +8,10 @@ $(document).ready(function(){
     });
 
     $(".modal").modal();
+
+    pricePage = $("#pricing");
+    bgImg = $("")
+    pricePage.click(function(){
+    
+    })
 });
