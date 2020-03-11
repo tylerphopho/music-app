@@ -1,14 +1,17 @@
 
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
 }
 
 header {
     background: url(./images/background-img.jpg);
         background-size: cover;
         height: 100vh;
+}
+
+span {
+  color: white;
 }
 
 .title {
@@ -44,6 +47,25 @@ main {
 
 h5{
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+  }
+
+h4 {
+  color: white;
 }
+p {
+  color: white;
+}  
+
+.modal-content {
+  background-color: #212121;
+} 
+
+  /* pricing page */
+
+  .card1 {
+    margin-top: 30px;
+  }
 
   
