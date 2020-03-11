@@ -5,6 +5,7 @@ module.exports = function(sequelize, DataTypes) {
         artist: DataTypes.STRING,
         genre: DataTypes.STRING,
         year: DataTypes.INTEGER,
+        duration: DataTypes.INTEGER
     });
     return Music
 }
