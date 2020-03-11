@@ -1,5 +1,4 @@
 $.get("/api/music", function(data){
-   console.log(data);
       if (data.length !== 0) {
          for (var i =0; i < data.length; i++) {
             var card = $("<div class='card grey darken-4'>")
@@ -14,6 +13,5 @@ $.get("/api/music", function(data){
             card.append(content);
             $("#music-section").append(card);
          }
-
       }
 });
