@@ -1,50 +1,54 @@
-
-
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
 }
 
 header {
-    background: url(./images/background-img.jpg);
-        background-size: cover;
-        height: 100vh;
+  background: url(./images/background-img.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
 .title {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {
   text-transform: uppercase;
   margin: 0;
   font-size: 3rem;
   white-space: nowrap;
 }
+
 h2 {
   color: white;
   font-size: 2rem;
 }
+
 h4 {
   color: white;
 }
+
 p {
   color: white;
-}  
+}
+
 main {
   max-width: 500px;
   margin: 20px auto;
 }
 
-.sticky-nav{
-    position: fixed;
-    top: 0;
+.sticky-nav {
+  position: fixed;
+  top: 0;
 }
+
 main {
   max-width: 500px;
   margin: 20px auto;
@@ -52,22 +56,31 @@ main {
 
 .modal-content {
   background-color: #212121;
-} 
+}
 
-  .sticky-nav{
-      position: fixed;
-      top: 0;
-  }
+.sticky-nav {
+  position: fixed;
+  top: 0;
+}
 
 
-  /* pricing page */
+/* pricing page */
 
-  .card1 {
-    margin-top: 30px;
-  }
+.card1 {
+  margin-top: 30px;
+}
 
-  h5{
-      text-align: center;
-  }
+h5 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
 
-  
+li {
+  color: white;
+}
+
+#pricing-bg{
+    background:url(./images/headphones.jpeg);
+}
