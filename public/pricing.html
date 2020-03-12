@@ -16,98 +16,126 @@
 </head>
 
 <body>
-    <!-- start of navBar -->
-    <header>
-        <nav class="nav-wrapper transparent">
+    <header id="pricing-bg">
+        <!-- start of navBar -->
+        <nav class="nav-wrapper grey darken-4">
             <div class="container">
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Browse</a></li>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="./browse.html">Browse</a></li>
                 </ul>
-                <a href="" class="brand-logo center">Music APP</a>
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <div class="center row">
-                            <div class="col m12">
-                                <div class="row">
-                                    <form>
-                                        <div class="input-field col s6">
-                                            <i class="white-text material-icons prefix">search</i>
-                                            <input id="music-search" type="text" class="white-text" placeholder="">
-                                        </div>
-                                        <div class="col s6">
-                                            <button id="navbar-search" class="btn-small white black-text">Search</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                <a href="" class="brand-logo center">Top Tracks</a>
             </div>
         </nav>
-    </header>
         <!-- End of navBar -->
 
 
-
-    
-    <!-- Start of card one -->
-    <h5>Choose your Subscription</h5>
-    <p>Enjoy An non-AD Free Streaming service</p>
-    <div class="container">
         <div class="row">
-            <div class="col s12 m4 13 center-align">
-                <div class="card1">
-                    <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title">Individual Plan</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Explore</a>
+            <h5 class="col s12"><b>Choose Your Subscription</b></h5>
+
+        </div>
+        <div class="row">
+            <p class="text-align center"><b>An AD-Free Streaming service</b></p>
+
+        </div>
+
+        <!-- Start of card one -->
+        <div class="container" id="card-grid">
+            <div class="row">
+                <div class="col s12 m4 13 center-align">
+                    <div class="card grey darken-4" id="card1">
+                        <div class="card-image">
+                            <img src="./css/images/individual-image.png">
+
+                        </div>
+                        <div class="card-content" style="margin-bottom: 155px;">
+                            <p><b>INDIVIDUAL</b></p>
+                            <p>$9.99/month after offer period 1 account</p>
+                            <hr />
+                            <ul>
+                                <li>Listen to music ad-free</li>
+                                <li>Play anywhere - even offline</li>
+                                <li>On-demand playback</li>
+                            </ul>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Subscribe</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-    
-            <div class="col s12 m4 13 center-align">
-                <div class="card2">
-                    <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title">Family Plan</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Explore</a>
+                <!-- End of card one -->
+
+                <!-- start of card two -->
+                <div class="col s12 m4 13 center-align">
+                    <div class="card grey darken-4" id="card2">
+                        <div class="card-image">
+                            <img src="./css/images/guitar-photo.jpeg">
+
+                        </div>
+                        <div class="card-content">
+                            <p><b>FAMILY PLAN</b></p>
+                            <p>$14.99/month after offer period Up to 6 accounts</p>
+                            <hr />
+                            <ul>
+                                <li>6 Premium accounts for family members living under one roof</li>
+                                <li>Family Mix: a playlist for your family, regularly updated with music you all enjoy
+                                </li>
+                                <li>Block explicit music</li>
+                                <li>Ad-free music listening, play offline, on-demand playback</li>
+                            </ul>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Subscribe</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-    
-            <div class="col s12 m4 13 center-align">
-                <div class="card3">
-                    <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title">Student Plan</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Explore</a>
+                <!-- End of card two -->
+
+                <!-- Start end card three -->
+                <div class="col s12 m4 13 center-align">
+                    <div class="card grey darken-4" id="card3">
+                        <div class="card-image">
+                            <img src="./css/images/recording-studio.jpeg">
+
+                        </div>
+                        <div class="card-content" style="margin-bottom: 110px;">
+                            <p><b>STUDENT</b></p>
+                            <p>$4.99/month after offer period 1 account</p>
+                            <hr />
+                            <ul>
+                                <li>VEVO (ad-supported) plan</li>
+                                <li>Play anywhere - even offline</li>
+                                <li>On-demand playback</li>
+                            </ul>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Subscribe</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+        <!-- End of card three -->
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
