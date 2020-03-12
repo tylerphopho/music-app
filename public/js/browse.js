@@ -10,8 +10,11 @@ $.get("/api/music", function(data){
             content.append("<p> Artist: " + data[i].artist + "</p>");
             content.append("<p> Year: " + data[i].year + "</p>");
             content.append("<p> Genre: " + data[i].genre + "</p>");
+            content.append("<p> Duration: " + data[i].duration + "</p>")
             card.append(content);
             $("#music-section").append(card);
          }
       }
 });
+
+
