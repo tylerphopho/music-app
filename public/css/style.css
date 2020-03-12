@@ -47,9 +47,7 @@ h4 {
 p {
   color: white;
 }
-
-
-}  
+  
 
 main {
   max-width: 500px;
@@ -59,16 +57,6 @@ main {
 .sticky-nav {
   position: fixed;
   top: 0;
-}
-
-
-main {
-  max-width: 500px;
-  margin: 20px auto;
-
-.card1 {
-  margin-top: 30px;
-
 }
 
 h5{
@@ -117,7 +105,7 @@ li {
 }
 
 #pricing-bg{
-    background:url(./images/headphones.jpeg);
+    background: url(./images/headphones.jpeg);
 }
 
 /* label color */
