@@ -1,5 +1,4 @@
 $.get("/api/music", function(data){
-   console.log(data);
       if (data.length !== 0) {
          for (var i =0; i < data.length; i++) {
             var card = $("<div class='card grey darken-4'>")
@@ -11,9 +10,11 @@ $.get("/api/music", function(data){
             content.append("<p> Artist: " + data[i].artist + "</p>");
             content.append("<p> Year: " + data[i].year + "</p>");
             content.append("<p> Genre: " + data[i].genre + "</p>");
+            content.append("<p> Duration: " + data[i].duration + "</p>")
             card.append(content);
             $("#music-section").append(card);
          }
-
       }
 });
+
+
