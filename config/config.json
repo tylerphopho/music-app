@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Moonlight21@",
-    "database": "project2",
+    "database": "hbuozzswia0j3rrn",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -16,8 +16,8 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "i5ngq2ohepcmln8g",
+    "password": "xta6xyrpd4ly5y55",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql",
