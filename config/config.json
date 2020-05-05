@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Moonlight21@",
+    "username": "i5ngq2ohepcmln8g",
+    "password": "xta6xyrpd4ly5y55",
     "database": "hbuozzswia0j3rrn",
-    "host": "127.0.0.1",
+    "host": "tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "operatorsAliases": false
   },
@@ -19,7 +19,7 @@
     "username": "i5ngq2ohepcmln8g",
     "password": "xta6xyrpd4ly5y55",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "operatorsAliases": false
   }
